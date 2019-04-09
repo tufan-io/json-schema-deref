@@ -23,6 +23,9 @@
   "engines": {
     "node": ">= 0.10.0"
   },
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.js",
   "typings": "index.d.ts",
   "dependencies": {
