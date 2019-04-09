@@ -4,6 +4,7 @@ declare interface Options {
   cacheTTL: number;
   failOnMissing: boolean;
   loader: any; //fn
+  preserveLocalRefs?: boolean;
 }
 type CB = (err : any, fullSchema : Object) => void;
 declare function callbackFn (err : any, fullSchema : Object) : any;
